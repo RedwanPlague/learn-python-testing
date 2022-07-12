@@ -10,3 +10,6 @@ test:
 
 format:
 	black src
+
+clean:
+	find . -type d -name "*cache*" -exec echo {} \;
